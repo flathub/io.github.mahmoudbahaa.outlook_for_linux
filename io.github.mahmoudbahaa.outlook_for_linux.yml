@@ -30,8 +30,7 @@ modules:
         only-arches: ["aarch64"]
         dest-filename: outlook-for-linux.deb
       - type: file
-        url: https://raw.githubusercontent.com/mahmoudbahaa/outlook-for-linux/flatpak/io.github.mahmoudbahaa.outlook_for_linux.appdata.xml   
-        sha256: acca600da7ac467f2dd9e873149d29fca5382ed7b6c727d75b7aee1817506577
+        path: io.github.mahmoudbahaa.outlook_for_linux.appdata.xml
       - type: script
         dest-filename: outlook-for-linux.sh
         commands:
